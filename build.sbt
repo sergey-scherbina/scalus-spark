@@ -3,9 +3,7 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / scalaVersion := "3.7.1"
 
 val sparkVersion = "4.0.0"
-
-//val scalusVersion = "0.10.4"
-val scalusVersion = "0.10.1+366-625465d3-SNAPSHOT" // local build from master branch
+val scalusVersion = "0.11.0"
 
 lazy val root = (project in file(".")).settings(
   name := "scalus-spark",
